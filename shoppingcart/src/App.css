@@ -1,0 +1,44 @@
+.productitemcss{
+
+    background-color: yellow;
+    border: 2px solid black;
+    transition-duration: 1s;
+}
+
+.productitemcss:hover{
+
+    transform: translateY(10%);
+}
+.content a{
+
+    background-color: red;
+    color: black;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+
+.content a:hover{
+
+    background-color: blue;
+    color: white;
+}
+
+.content div{
+
+    margin-left: 2%;
+}
+
+.setImage{
+
+    width: 100%;
+    height: 400px;
+    background-image: url("http://www.guoguiyan.com/data/out/206/69909352-vegetables-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .bold{
+
+    font-style: italic;
+  }
