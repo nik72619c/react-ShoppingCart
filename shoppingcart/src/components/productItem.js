@@ -53,14 +53,14 @@ passData(){
 <img src={this.props.product.src} className="img-fluid mx-auto" />
 
 <div className="content">
-       <div className="text-center"> Product id: {this.props.product.snackid} </div>
-        <div className="text-center">Product Name : {this.props.product.name}</div>
-       <div className="text-center"> Price : {this.props.product.price} </div>
-        <div className="text-center">Quantity : {this.state.quantity}</div>
+       <div className="text-center text-white"> Product id: {this.props.product.snackid} </div>
+        <div className="text-center text-white">Product Name : {this.props.product.name}</div>
+       <div className="text-center text-white"> Price : {this.props.product.price} </div>
+        <div className="text-center text-white">Quantity : {this.state.quantity}</div>
 
 
-        <div className="text-left" ><NavLink to="/products/snacks/cart" className="bg-alert p-2 m-2" onClick={this.passData.bind(this)}>ADD TO CART</NavLink></div>
-        <div className="text-right"><a href="#" className="text-right bg-alert p-2 m-2 pb-2" onClick={this.decQuantity.bind(this)}>Buy This Item</a></div>
+        <div className="text-left " ><NavLink to="/products/snacks/cart" className="bg bg-success p-2 text-white p-2 pb-2 mb-2 mt--5 text-white" onClick={this.passData.bind(this)}>ADD TO CART</NavLink></div>
+        <div className="text-right add"><a href="#" className="text-right bg bg-alert text-white p-2  pb-2 text-white" onClick={this.decQuantity.bind(this)}>Buy This Item</a></div>
            </div>
         </div>
        

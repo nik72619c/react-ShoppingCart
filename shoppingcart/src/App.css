@@ -1,6 +1,6 @@
 .productitemcss{
 
-    background-color: yellow;
+    background-image: url("https://s3.envato.com/files/219933476/Preview_Image.jpg");
     border: 2px solid black;
     transition-duration: 1s;
 }
@@ -41,4 +41,11 @@
   .bold{
 
     font-style: italic;
+  }
+
+  .add{
+
+   transform: translate(130%,-90%);
+
+   width: 180px;
   }
